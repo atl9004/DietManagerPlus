@@ -2,7 +2,7 @@ package test;
 
 import java.applet.Applet;
 import java.awt.*;
-//import java.awt.Graphics;
+import java.awt.Graphics;
 import javax.swing.*;
 
 /***
@@ -60,6 +60,13 @@ public class AppletHelloWorld extends Applet{
         this.text.setText(text);
     }
 
+
+    //this section i commented out below was just for testing, I just want stuff to appear on html
+    /*
+    public void paint(Graphics g){
+        g.drawString("Hello this is the paint", 50,50);
+    }
+    */
 
     /**
      * main method currently just contructs a hello world java Applet

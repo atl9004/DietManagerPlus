@@ -1,0 +1,126 @@
+<!DOCTYPE html> <!-- this file is just for learning html -Aidan Lear -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Testing HW</title>
+    </head>
+
+        <h1>
+            About Us
+        </h1>
+        <p>
+            To be honest, I <strong>just want a six pack</strong>, thats the only real motivation here.
+            Sure it's good experience,
+            but having a six pack would be so cool, I just want to look good.
+            <a href="https://media1.tenor.com/images/f9d44f471d13e4270841f1af861446e6/tenor.gif?itemid=5658854" target="_blank">
+                Motivation is weird...</a>
+        </p>
+        <h3>Lead:</h3>
+        <ul>
+            <li>Aidan Lear</li>
+        </ul>
+        <h3> Contributors:</h3>
+        <ul>
+            <li>Suraj</li>
+            <li>Jarred</li>
+        </ul>
+        <h3> Special Thanks:</h3>
+        <ul>
+            <li>Jordan</li>
+        </ul>
+
+        <!-- table here -->
+        <h3> Requirements Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th> req name</th>
+                    <th> diffculty (1-10)</th>
+                    <th> description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>backend ptui prototype</td>
+                    <td>2</td>
+                    <td>I'll make a dietmanager with ptui that can be ran and used locally, no networking</td>
+                </tr>
+                <tr>
+                    <td>frontend prototype</td>
+                    <td>7</td>
+                    <td>website that works locally, no network yet</td>
+                </tr>
+                <tr>
+                    <td>networking????</td>
+                    <td>10</td>
+                    <td>have some sort of networking going on that is hosted on PI, not sure if UI or not</td>
+                </tr>
+                <tr>
+                    <td>Alexa support?</td>
+                    <td>like a million</td>
+                    <td>>Log food with Alexa commands????</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--line separator -->
+        <br><hr><br>
+
+
+        <!-- form -->
+
+
+        <form action="process.php" method="POST">
+            <div>
+                <label> Food:</label>
+                <input type="text" name="foodName">
+            </div>
+            <br>
+            <div>
+                <label> Calories:</label>
+                <input type="text" name="foodCalories">
+            </div>
+            <br>
+            <div>
+                <label>Description:</label>
+                <textarea name="message" placeholder="Tell me what you think..."></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Weapon</label>
+                <select name="weapon">
+                    <option value="sword">Sword</option>
+                    <option value="katana">Katana</option>
+                    <option value="dagger">Dagger</option>
+                    <option value="staff">Staff</option>
+                    <option value="bow">Bow</option>
+                    <option value="wand">Wand</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" name="submit data" value="Log Data..">
+        </form>
+
+        <br>
+        <button> activate JS(doesnt do anything atm)</button>
+        <br>
+
+        <!-- image here -->
+    <a href="images/bnb.jpg" target="_blank">
+        <img src="images/bnb.jpg" alt="bold n brash" width="200" height="300">
+    </a>
+
+    <!-- quotations -->
+    <p> this image is called: <abbr title="More like, belongs in the trash">Bold and Brash</abbr></p>
+
+    <p>
+        <cite>
+            Diet Manager
+        </cite>
+        by Floor Seven Productions
+    </p>
+
+
+    </body>
+</html>
